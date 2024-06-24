@@ -9,4 +9,4 @@ services:
       - "9001:9001"
     environment:
       - JUPYTER_ENEBLE_LAB=yes
-    command: ["conda", "run", "-n", "pymc_env", "jupyter", "notebook", "--ip=0.0.0.0", "--port=9001", "--allow-root", "--no-browser", "--NotebookApp.password=argon2:$argon2id$v=19$m=10240,t=10,p=8$kg3224MxL2jjpCF4SgrI5g$h6y4rgTtN2FGJSYeP+YiBG85yq3odOyATv5CN8+ggk8"]
+    command: ["conda", "run", "-n", "python_algorithm", "jupyter", "notebook", "--ip=0.0.0.0", "--port=9001", "--allow-root", "--no-browser", "--NotebookApp.password='argon2:$$argon2id$$v=19$$m=10240,t=10,p=8$$C9KnoCnQBFZfD90jkCa8Bw$$KFaFb89DPIsFzFosgRcxw98l0+oxNgJNvLKeGdgB1Dw'"]
