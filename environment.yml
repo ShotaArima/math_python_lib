@@ -1,5 +1,5 @@
 
-name: myenv
+name: python_algorithm
 channels:
   - conda-forge
 dependencies:
