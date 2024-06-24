@@ -3,6 +3,8 @@
 # 重複削除、昇順ソート
 def make_set(arrs):
     results = []
+    if arrs == []:
+        return results
     results.append(arrs[0])
     for arr in arrs:
         ans = True

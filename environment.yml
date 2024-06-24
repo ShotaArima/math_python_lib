@@ -1,4 +1,3 @@
-
 name: python_algorithm
 channels:
   - conda-forge
@@ -9,3 +8,4 @@ dependencies:
   - matplotlib
   - scipy
   - jupyter
+  - pytest
